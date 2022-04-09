@@ -1,0 +1,51 @@
+body {
+    font-family: 'Cutive';
+}
+
+div {
+    max-width: 500px;
+    margin: auto;
+}
+
+table th {
+    border-bottom: 3px solid #000;
+}
+
+table td {
+    padding: 10px;
+    margin: auto;
+}
+
+.fingerdown {
+    margin: 0;
+}
+
+
+.qualification {
+    font-size: 0.7em;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+}
+
+.gif-iframe {
+    flex-basis: 33.33%;
+    margin: 0px -40px 0px -40px;
+}
+
+.aboutme::after {
+    content: "";
+    width: 3px;
+    height: 17px;
+    background: #000000;
+    display: inline-block;
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 0;
+    }
+}
